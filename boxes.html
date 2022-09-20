@@ -7,25 +7,53 @@
     <title>Boxes</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./imagenes/Logo.jpg" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
     
     <header>
-        <div>
+        <!-- <div>
             <img src="./imagenes/Logo.jpg" alt="" srcset="" id="logoMain">
             <h1 id="titulo">Marie Cakes</h1>
-        </div>
-        <nav>
-            <ul>
-                <li id="menu"><a href="./index.html">Home</a></li>
-                <li id="menu"><a href="./tortas.html">Tortas</a></li>
-                <li id="menu"><a href="./alfajores.html">Alfajores</a></li>
-                <li id="menu"><a href="./tartas.html">Tartas</a></li>
-                <li id="menu"><a href="./cookies.html">Cookies</a></li>
-                <li id="menu"><a href="./boxes.html">Boxes</a></li>
-                <li id="menu"><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        </div> -->
+
+        <nav class="navbar navbar-expand-lg bg-pink">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./imagenes/Logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    Marie Cakes
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./tortas.html">Tortas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./alfajores.html">Alfajores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./tartas.html">Tartas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./cookies.html">Cookies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./boxes.html">Boxes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         
     </header>
 
@@ -53,12 +81,15 @@
     </main>
 
     <footer>
-        <h2>Informacion de Contacto</h2>
+        <h3>Informacion de Contacto</h3>
         <p>mariecakes.74@gmail.com</p>
         <p>WhatsApp:<a href="https://api.whatsapp.com/send/?phone=5491139328270&text&type=phone_number&app_absent=0" target="_blank">  1139328270</a></p>
         <a href="https://www.instagram.com/mariecakes_74/" target="_blank">
             <img src="./imagenes/logoinstagram.jfif" alt="" srcset=""></a>
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
 </body>
 </html>
