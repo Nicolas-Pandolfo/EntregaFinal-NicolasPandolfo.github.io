@@ -41,10 +41,6 @@ footer{
     padding: 5px 0px 5px 5px;
     background-color: pink;
 }
-.flexItem input{
-
-    font-size: smaller;
-}
 
 @media (min-width: 768px){
     #slider{

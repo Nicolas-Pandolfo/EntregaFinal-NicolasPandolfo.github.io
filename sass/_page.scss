@@ -1,0 +1,32 @@
+main {
+/*     background-color:  rgba(226, 167, 231, 0.589);*/
+    h2 {
+        text-align: center;
+        background-color: rgba(226, 167, 231, 0.589);
+    }
+    .flexBox {
+        height: auto;
+        padding: 1%;
+        display: flex;
+        gap: 1%;
+        align-items: center;
+        margin-top: 1%;
+        margin-left: 1%;
+        .flexItem {
+            img {
+                width: 100%;
+                height: auto;
+                border: 1px solid gray;
+            }
+            input {
+                border: none;
+                background-color: rgb(178, 221, 226);
+                margin-top: 2%;
+                margin-left: 35%;
+                &:hover {
+                    background-color: beige;
+                }
+            }
+        }
+    }
+}
