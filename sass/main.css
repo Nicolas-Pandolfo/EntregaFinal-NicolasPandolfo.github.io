@@ -29,7 +29,7 @@ main .flexBox .flexItem input:hover {
   background-color: beige;
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .footer__home {
     display: block;
     position: fixed;
@@ -43,7 +43,7 @@ main .flexBox .flexItem input:hover {
     margin-top: 5%;
   }
 }
-@media (max-width: 930px) {
+@media only screen and (min-width: 768px) and (max-width: 929px) {
   .footer {
     display: block;
     position: fixed;
@@ -61,7 +61,7 @@ main .flexBox .flexItem input:hover {
     margin-right: 20%;
   }
 }
-@media (max-width: 1439px) {
+@media (min-width: 930px) {
   .footer {
     display: block;
     position: fixed;
