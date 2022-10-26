@@ -1,5 +1,5 @@
 main {
-  /*     background-color:  rgba(226, 167, 231, 0.589);*/
+  margin-bottom: 10%;
 }
 main h2 {
   text-align: center;
@@ -17,16 +17,11 @@ main .flexBox {
 main .flexBox .flexItem img {
   width: 100%;
   height: auto;
-  border: 1px solid gray;
 }
-main .flexBox .flexItem input {
-  border: none;
-  background-color: rgb(178, 221, 226);
-  margin-top: 2%;
-  margin-left: 35%;
-}
-main .flexBox .flexItem input:hover {
-  background-color: beige;
+main .flexBox .flexItem p {
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 767px) {
